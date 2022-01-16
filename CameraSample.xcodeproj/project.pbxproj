@@ -14,6 +14,10 @@
 		5B3211B227918FDD008D7C8D /* CameraSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211B127918FDD008D7C8D /* CameraSampleTests.swift */; };
 		5B3211BC27918FDD008D7C8D /* CameraSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211BB27918FDD008D7C8D /* CameraSampleUITests.swift */; };
 		5B3211BE27918FDD008D7C8D /* CameraSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211BD27918FDD008D7C8D /* CameraSampleUITestsLaunchTests.swift */; };
+		5B3211CB27919DF4008D7C8D /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211CA27919DF4008D7C8D /* CameraManager.swift */; };
+		5B3211CD2791AC42008D7C8D /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211CC2791AC42008D7C8D /* FrameManager.swift */; };
+		5B3211CF2791AD1E008D7C8D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211CE2791AD1E008D7C8D /* ContentViewModel.swift */; };
+		5B8E6A332793E0700044A144 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E6A322793E0700044A144 /* FrameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		5B3211B727918FDD008D7C8D /* CameraSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3211BB27918FDD008D7C8D /* CameraSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSampleUITests.swift; sourceTree = "<group>"; };
 		5B3211BD27918FDD008D7C8D /* CameraSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B3211CA27919DF4008D7C8D /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		5B3211CC2791AC42008D7C8D /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		5B3211CE2791AD1E008D7C8D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		5B8E6A322793E0700044A144 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				5B3211A227918FDB008D7C8D /* ContentView.swift */,
 				5B3211A427918FDD008D7C8D /* Assets.xcassets */,
 				5B3211A627918FDD008D7C8D /* Preview Content */,
+				5B3211CA27919DF4008D7C8D /* CameraManager.swift */,
+				5B3211CC2791AC42008D7C8D /* FrameManager.swift */,
+				5B3211CE2791AD1E008D7C8D /* ContentViewModel.swift */,
+				5B8E6A322793E0700044A144 /* FrameView.swift */,
 			);
 			path = CameraSample;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8E6A332793E0700044A144 /* FrameView.swift in Sources */,
 				5B3211A327918FDB008D7C8D /* ContentView.swift in Sources */,
+				5B3211CB27919DF4008D7C8D /* CameraManager.swift in Sources */,
 				5B3211A127918FDB008D7C8D /* CameraSampleApp.swift in Sources */,
+				5B3211CD2791AC42008D7C8D /* FrameManager.swift in Sources */,
+				5B3211CF2791AD1E008D7C8D /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +438,7 @@
 				DEVELOPMENT_TEAM = M83ARHJRW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 촬영을 위한 카메라 사용 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +468,7 @@
 				DEVELOPMENT_TEAM = M83ARHJRW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 촬영을 위한 카메라 사용 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
