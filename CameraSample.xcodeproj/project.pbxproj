@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2B41C62793E5C2007217AE /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B41C52793E5C2007217AE /* ErrorView.swift */; };
+		5B2B41C82793EAB5007217AE /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B41C72793EAB5007217AE /* CameraError.swift */; };
 		5B3211A127918FDB008D7C8D /* CameraSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211A027918FDB008D7C8D /* CameraSampleApp.swift */; };
 		5B3211A327918FDB008D7C8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211A227918FDB008D7C8D /* ContentView.swift */; };
 		5B3211A527918FDD008D7C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3211A427918FDD008D7C8D /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B2B41C52793E5C2007217AE /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5B2B41C72793EAB5007217AE /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		5B32119D27918FDB008D7C8D /* CameraSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3211A027918FDB008D7C8D /* CameraSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSampleApp.swift; sourceTree = "<group>"; };
 		5B3211A227918FDB008D7C8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				5B3211CC2791AC42008D7C8D /* FrameManager.swift */,
 				5B3211CE2791AD1E008D7C8D /* ContentViewModel.swift */,
 				5B8E6A322793E0700044A144 /* FrameView.swift */,
+				5B2B41C52793E5C2007217AE /* ErrorView.swift */,
+				5B2B41C72793EAB5007217AE /* CameraError.swift */,
 			);
 			path = CameraSample;
 			sourceTree = "<group>";
@@ -273,8 +279,10 @@
 				5B3211A327918FDB008D7C8D /* ContentView.swift in Sources */,
 				5B3211CB27919DF4008D7C8D /* CameraManager.swift in Sources */,
 				5B3211A127918FDB008D7C8D /* CameraSampleApp.swift in Sources */,
+				5B2B41C62793E5C2007217AE /* ErrorView.swift in Sources */,
 				5B3211CD2791AC42008D7C8D /* FrameManager.swift in Sources */,
 				5B3211CF2791AD1E008D7C8D /* ContentViewModel.swift in Sources */,
+				5B2B41C82793EAB5007217AE /* CameraError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

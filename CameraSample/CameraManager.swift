@@ -10,15 +10,6 @@ import AVFoundation
 import UIKit
 
 class CameraManager: ObservableObject {
-    enum CameraError {
-        case deniedAuthorization
-        case restrictedAuthorization
-        case unknownAuthorization
-        case cameraUnavailable
-        case cannotAddInput
-        case cannotAddOutput
-        case createCaptureInput(Error)
-    }
     
     enum Status {
         case unconfigured
